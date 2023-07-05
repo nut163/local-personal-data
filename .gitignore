@@ -1,0 +1,58 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore test artifacts
+test/*.pyc
+test/__pycache__/
+
+# Ignore Flask file
+instance/
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore log files
+*.log
+
+# Ignore environment variables
+.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore Docker files
+Dockerfile
+*.dockerignore
+
+# Ignore all byte-compiled files
+*.py[cod]
+*$py.class
+
+# Ignore all __pycache__ directories
+__pycache__/

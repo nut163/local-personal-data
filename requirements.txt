@@ -1,0 +1,12 @@
+flask==1.1.2
+flask-sqlalchemy==2.4.4
+flask-marshmallow==0.14.0
+marshmallow-sqlalchemy==0.23.1
+flask-jwt-extended==3.24.1
+flask-bcrypt==0.7.1
+requests==2.24.0
+pytest==6.1.1
+psycopg2-binary==2.8.6
+gunicorn==20.0.4
+python-dotenv==0.15.0
+webhook==1.0.0
